@@ -153,16 +153,19 @@ section .container {
   content: "";
   display: table;
 }
-h1::first-letter, h2::first-letter {
+
+header h1::first-letter, header h2::first-letter,
+section h1::first-letter, section h2::first-letter {
   color: #c00;
 }
+
     </style>
 
   </head>
   <body>
     <header id="hero" class="layer">
       <div class="container">
-        <h1>μService</h1>
+        <h1>µService</h1>
         <h3>A master workshop on microservice ownership, development, tools, and organizational impact.</h3>
         <p>September, 2015</p>
       </div>
@@ -170,7 +173,7 @@ h1::first-letter, h2::first-letter {
     <section id="sessions" class="layer">
       <div class="container">
         <div class="subhead">
-          <h2>μSessions</h2>
+          <h2>µSessions</h2>
           <span>Monday / Tuesday AM</span>
         </div>
         <p>Sessions are each 45 minutes and in the morning</p>
@@ -202,7 +205,7 @@ h1::first-letter, h2::first-letter {
     <section id="projects" class="layer">
       <div class="container">
         <div class="subhead">
-          <h2>μProject</h2>
+          <h2>µProject</h2>
           <span>PM</span>
         </div>
         <p>&lt;INSERT DESCRIPTION&gt;</p>
@@ -215,7 +218,7 @@ h1::first-letter, h2::first-letter {
     <section id="prices" class="layer">
       <div class="container">
         <div class="subhead">
-          <h2>μPrice</h2>
+          <h2>µPrice</h2>
         </div>
         <p>&lt;INSERT DESCRIPTION&gt;</p>
         <ul class="list">
@@ -228,8 +231,8 @@ h1::first-letter, h2::first-letter {
     <footer class="layer">
       <div class="container">
         <div class="subhead">
-          <h2>This workshop</h2>
-          <p>is presented by and copyright of All in Geek Consulting Services, LLC</p>
+          <h2>µWorkshop Details</h2>
+          <p>This workshop is presented by and copyright of All in Geek Consulting Services, LLC</p>
         </div>
       </div>
     </footer>
