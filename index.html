@@ -26,7 +26,6 @@ header {
   html {
     font-size:58%
   }
-
 }
 
 @media (min-width: 800px) {
@@ -37,9 +36,8 @@ header {
   header {
     margin-top: 0px;
     padding-top: 7em;
-    background: url('/u_hero.svg') right center no-repeat;
-    background-size: 19em;
     text-align: left;
+    background-image: none;
   }
   .container {
     max-width:80rem;
@@ -48,6 +46,8 @@ header {
   }
   header .container h3{
     max-width:55rem;
+    background: url('/u_hero.svg') right center no-repeat;
+    background-size: 19em;
   }
 }
 
@@ -60,12 +60,6 @@ header {
     -moz-column-count: 2; /* Firefox */
     column-count: 2;
   }
-
-  header {
-    background: url('/u_hero.svg') right 1em center no-repeat;
-    background-size: 29em;
-  }
-
 }
 
 @media (min-width: 1400px) {
@@ -78,11 +72,11 @@ header {
   }
 
   body {
-    background: url('/u_hero.svg') right 1em center no-repeat;
+    background: url('/u_hero.svg') right 1em center no-repeat fixed;
     background-size: 29em;
   }
   .container {
-    margin-left: 1rem;
+    margin-left: 2rem;
   }
 
 }
