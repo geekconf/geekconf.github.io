@@ -14,28 +14,43 @@ html {
   font-size:54%
 }
 
-@media (min-width: 650px) {
-html {
-  font-size:58%
+header {
+  margin-top: 1em;
+  padding-top: 11em;
+  background: url('/u_hero.svg') top center no-repeat;
+  background-size: 10em;
 }
+
+@media (min-width: 650px) {
+  html {
+    font-size:58%
+  }
+
+  header {
+    margin-top: 0px;
+    padding-top: 7em;
+    background: url('/u_hero.svg') right -5em center no-repeat;
+    background-size: 30em;
+  }
 }
 
 @media (min-width: 800px) {
-html {
-  font-size:62.5%
-}
+  html {
+    font-size:62.5%
+  }
+
 }
 
 @media (min-width: 1100px) {
-html {
-  font-size:70%
-}
+  html {
+    font-size:70%
+  }
 }
 
 @media (min-width: 1400px) {
-html {
-  font-size:75%
-}
+  html {
+    font-size:75%
+  }
 }
 
 body {
@@ -48,12 +63,6 @@ body {
 }
 
 header { 
-  padding-top:7em; 
-  background: url('/u_hero.png') right -5em center no-repeat;
-  background-size: 30em;
-}
-
-header .container {
 }
 
 b,strong {
